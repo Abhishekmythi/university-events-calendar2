@@ -1,0 +1,239 @@
+[23:27, 29/11/2023] teja lpu: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY EVENTS CALENDAR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .event-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .event {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .event-left {
+            flex: 1;
+        }
+
+        .event-right {
+            flex: 3;
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .event-title {
+            color: #333;
+            margin: 0;
+        }
+
+        .event-description,
+        .event-timing {
+            margin: 10px 0;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .year {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+       <div class="event-container">
+        <h3 class="year">2023</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="event-date">
+                    <div class="date">8</div>
+                    <div class="month">Nov</div>
+        </div>
+                
+            </div>
+            <div clas="event-right">
+                <h3 class="event-title">Coke Studio Bharat</h3>
+                <div class="event-description">
+                    Venue:Unipolis
+                </div>
+
+                <div class="event-timing">
+                    <img src= "images/time.png" alt="" />6:00pm
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="event-container">
+        <h3 class="year">2023</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="event-date">
+                    <div class="date">29</div>
+                    <div class="month">Nov</div>
+        </div>
+                
+            </div>
+            <div clas="event-right">
+                <h3 class="event-title">International Conference On Recent Advances In Computer Sciences</h3>
+                <div class="event-description">
+                    Venue:Shanti Devi Mittal Auditorium
+                </div>
+
+                <div class="event-timing">
+                    <img src= "images/time.png" alt="" />9:30am
+                </div>
+
+            </div>
+        </div>
+    </div><div class="event-container">
+        <h3 class="year">2023</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="event-date">
+                    <div class="date">30</div>
+                    <div class="month">Nov</div>
+        </div>
+                
+            </div>
+            <div clas="event-right">
+                <h3 class="event-title">International Conference On Philosophy Of Peace Justice And Equality</h3>
+                <div class="event-description">
+                    Venue:Baldev Raj Mittal Uni Auditorium
+                </div>
+
+                <div class="event-timing">
+                    <img src= "images/time.png" alt="" />10:00am
+                </div>
+
+            </div>
+        </div>
+    </div><div class="event-container">
+        <h3 class="year">2024</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="event-date">
+                    <div class="date">5</div>
+                    <div class="month">Jan</div>
+        </div>
+                
+            </div>
+            <div cla…
+[23:27, 29/11/2023] teja lpu: .event-container {
+    font-family: "Roboto", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-container h3.year {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event {
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left {
+    background: #222;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color: #218bbb;
+    text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+    background: #ffff8baa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+}
+
+.event .event-right .event-timing
+img{
+    height: 20px;
+    padding-right: 8px;
+}
+
+@media (max-width: 550px) {
+    .event{
+        flex-direction: column;
+    }
+
+    .event .event-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .event .event-left .event-date .date ,
+    .event .event-left .event-date .month{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+}
+
+teja lpu
++91 83092 64043
+Available
+geetu, HARI, lokesh, pradeep, sujith, surya, teja, +91 6305 124 513, +91 85200 51332, +91 96408 97557, +91 93812 63304, +91 77027 82489, +91 91107 14537, +91 80080 35702, +91 96189 85925, +91 96526 84339, +91 89772 89978, +91 70135 21774, +91 94938 11919, +91 75694 31544, +91 6300 491 649, +91 81850 45232, +91 91822 57240, +91 77025 81499, +91 6305 001 919, +91 77022 15162, +91 93810 06388, +91 93479 03988, +91 88853 39239, +91 83286 89552, +91 79953 95637, +91 91135 05411, +91 88862 63988, +91 79897 09398, +91 77804 82292, +91 76708 79405, +91 93818 24622, +91 6281 011 213, +91 6281 240 429, +91 6281 370 891, +91 6281 777 678, +91 6300 128 863, +91 6300 288 499, +91 6300 673 256, +91 6300 738 270, +91 6300 752 433, +91 6301 348 253, +91 6301 450 494, +91 6301 463 271, +91 6301 518 819, +91 6302 149 477, +91 6302 759 116, +91 6303 221 547, +91 6303 447 572, +91 6303 456 176, +91 6304 955 536, +91 70097 41476, +91 70131 06925, +91 70131 75622, +91 70321 60455, +91 70361 04151, +91 70753 22917, +91 70759 60773, +91 70939 86810, +91 70959 81217, +91 72860 70804, +91 73370 83251, +91 73370 90502, +91 73861 12383, +91 73868 69091, +91 74161 47151, +91 74164 61617, +91 75690 87735, +91 75691 83917, +91 75699 28536, +91 76710 03910, +91 76720 43110, +91 77022 09473, +91 77318 09344, +91 78422 40391, +91 78936 67502, +91 79813 62012, +91 79816 66303, +91 79817 38984, +91 79818 61324, +91 79892 92502, +91 79895 48327, +91 79936 27469, +91 80083 85927, +91 80086 05244, +91 80745 65202, +91 80745 65478, +91 81860 31904, +91 83096 13508, +91 83099 46320, +91 83284 55245, +91 83742 53666, +91 85238 19003, +91 85558 67569, +91 85559 15133, +91 85559 29449, +91 86391 36678, +91 86884 58872, +91 86885 01766, +91 87123 45629, +91 87123 94042, +91 87908 07675, +91 88856 04939, +91 88858 08036, +91 89194 20428, +91 89773 34478, +91 89789 87749, +91 90109 47279, +91 90143 48127, +91 90146 48524, +91 90146 63251, +91 90526 77565, +91 90595 75688, +91 90599 10751, +91 90639 01681, +91 91004 74830, +91 91006 34470, +91 91006 76148, +91 91545 63895, +91 91771 57760, +91 93465 22843, +91 93466 64067, +91 93470 82455, +91 93471 84419, +91 93475 70263, +91 93479 68697, +91 93810 30837, +91 93818 01462, +91 93819 80680, +91 93900 28369, +91 93903 23050, +91 93904 79256, +91 93905 27909, +91 93921 75517, +91 93924 19067, +91 93926 02166, +91 93926 11379, +91 93927 69041, +91 93927 83693, +91 93927 89160, +91 93929 13582, +91 93929 91536, +91 93980 59566, +91 93983 53767, +91 93987 40013, +91 95023 10295, +91 95029 07746, +91 95428 65479, +91 95739 01859, +91 96038 25989, +91 96183 64689, +91 96522 09126, +91 96529 57949, +91 96660 52935, +91 96668 10415, +91 96763 24814, +91 96924 55407, +91 97007 05529, +91 97011 89338, +91 97040 50399, +91 97042 56778, +91 99496 13892, +91 99638 34605, +91 99639 49076, +91 99666 33942, You
+abhinav, geetu, gyanu, jasmith, lokesh, sujith, surya, Tarun, teja, Vinuthuna, +91 6305 124 513, +91 93812 63304, +91 91006 75005, +91 80080 35702, +91 96189 85925, +91 93912 62280, +91 91107 14852, +91 96187 98606, +91 77025 81499, +91 93810 06388, +91 93479 03988, +91 83286 89552, +91 91135 05411, +91 92963 50350, +91 76708 79405, +91 73307 77859, You
